@@ -1,0 +1,25 @@
+          ___
+         / ,_\    _____
+        /  _)/   /o    \
+        |  \    /_ `    \__________
+        |   \____ >__,_  \         |
+        |                  ____,   |
+        \,___________     |    \   |
+                   \      (     \  |__
+                    \    \ \     \   _)_
+                     \/     \     \____/
+
+Here you'll find a castle with 7 walls surrounding it.
+
+Navigate inside of all of the `castle-wall`s using `cd`
+(tab is your friend for autocomplete!).
+
+Once inside the castle, use the `ls` command to list out
+the people (files) that live here.
+
+Use `cat` on some of the people if you want to see their
+pretty faces.
+
+Once you're done exploring, navigate out of the castle and 
+proceed into the second circle of hell: `lust`.
+

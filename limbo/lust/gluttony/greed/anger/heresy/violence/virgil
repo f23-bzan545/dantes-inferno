@@ -9,8 +9,9 @@
                     \    \ \     \   _)_
                      \/     \     \____/
 
-Let's start our journey with the command `cd limbo`
+A minotaur blocks our entrance to this 7th circle of hell!
+Canonically, our guide Virgil, talks us past this beast, 
+but we'll take the easy way out and just "remove" him from our path.  
 
-`cd` stands for change directory and is how we'll navigate
-from folder to folder in bash
-
+Use a command to delete the minotaur file. Once you've evaporated
+our foe, navigate to the eigth circle of hell: `fraud`.

@@ -1,0 +1,31 @@
+          ___
+         / ,_\    _____
+        /  _)/   /o    \
+        |  \    /_ `    \__________
+        |   \____ >__,_  \         |
+        |                  ____,   |
+        \,___________     |    \   |
+                   \      (     \  |__
+                    \    \ \     \   _)_
+                     \/     \     \____/
+
+Here we're supposed to see two groups of people jousting... 
+but I don't see anyone even looking for hidden people...
+
+Use commandas to create two blank files, one named `hoarders` 
+and one named `spenders`. Make sure you've named them *exactly*
+like this. 
+
+Once you've created them run the program `joust` by typing `./joust`.  
+The program will either depict the jousting scene (v gruesome) or 
+let you know that you didn't create the needed files.
+
+If you get an error saying `permission denied: ./joust` run the 
+command `chmod +x joust`; this gives the `joust` program permission 
+to be executed (aka ran). Look more into the `chmod` command and what 
+all it can do.
+
+For extra exposure to what bash can do you can look into the contents 
+of the `joust` file.
+
+After viewing the joust navigate the fifth circle of hell: `anger` >:(

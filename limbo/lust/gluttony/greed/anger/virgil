@@ -9,8 +9,11 @@
                     \    \ \     \   _)_
                      \/     \     \____/
 
-Let's start our journey with the command `cd limbo`
+Here we come upon the river Styx and need to be transported
+by boat to the City of Dis.  
 
-`cd` stands for change directory and is how we'll navigate
-from folder to folder in bash
+I don't see the city though.... use a command to make a folder called
+`dis` and then use a command to move the `boat` into the newly realized city.
+
+Once you're done sailing, navigate to the sixth circle of hell: `heresy`.
 

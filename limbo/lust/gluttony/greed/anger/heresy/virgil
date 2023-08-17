@@ -9,8 +9,11 @@
                     \    \ \     \   _)_
                      \/     \     \____/
 
-Let's start our journey with the command `cd limbo`
+In this circle of hell, heretics are trapped inside 
+flaming tombs!  In `tombs.zip` there are some people 
+who Dante encounters in this circle of hell.  Use a command
+to unzip this file and use `ls`/`cat` to see who you freed.
 
-`cd` stands for change directory and is how we'll navigate
-from folder to folder in bash
+Once you're done exploring, navigate to the seventh circle
+of hell: `violence`.
 
