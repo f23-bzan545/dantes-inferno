@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Check if 'hoarders' and 'spenders' files exist
+if [ -e "hoarders" ] && [ -e "spenders" ]; then
+    cat .jousters-ascii
+else
+    echo "Error: Missing either 'hoarders' or 'spenders' file."
+fi
