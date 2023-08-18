@@ -16,8 +16,8 @@ To really practice, use ***<u>only</u>*** your bash command line to navigate the
 
 1. Get these files on your computer ([download](https://github.com/AdamSpannbauer/dantes-inferno/archive/refs/heads/master.zip) and unzip OR [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repo)
 2. Open up a bash window in the root directory of this project
-  * Terminal app on Mac
-  * Gitbash on Windows
+    * Terminal app on Mac
+    * Gitbash on Windows
 3. Type `cat virgil` to get started
 4. `virgil` will be available in each level of hell; use `cat` to get instructions on what to do before moving deeper into bash hell
 5. Use google/chatgpt/etc to help discover what commands to run.  This activity doesn't tell you how to do all the things; it just brings up common tasks to know how to do and is an environment to practice.
