@@ -12,7 +12,7 @@
 Here you'll find a castle with 7 walls surrounding it.
 
 Navigate inside of all of the `castle-wall`s using `cd`
-(tab is your friend for autocomplete!).
+(**tab is your friend for autocomplete!**).
 
 Once inside the castle, use the `ls` command to list out
 the people (files) that live here.
