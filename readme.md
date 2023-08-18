@@ -6,74 +6,32 @@
 
 ----
 
-Let's learn about Dante Alighieri's *Divine Comedy* at the same time we learn about bash! (idk man I went to a liberal arts college...). This epic poem has the famous *Inferno* where we're toured through the 9 circles of hell by Virgil.
+Let's learn about Dante Alighieri's *Divine Comedy* at the same time we learn about bash! (idk man I went to a liberal arts college...). This epic poem has the famous *Inferno* where we're toured by Virgil through the 9 circles of hell.
 
-![](https://www.thoughtco.com/thmb/Avbsf-KY0ImBByRdI1UatD7knW0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/illustration-to-the-divine-comedy-by-dante-alighieri--abyss-of-hell---1480-1490--found-in-the-collection-of-the-biblioteca-apostolica-vaticana--486777773-5c3a03c246e0fb00016261f2.jpg)
+<img src="https://www.thoughtco.com/thmb/Avbsf-KY0ImBByRdI1UatD7knW0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/illustration-to-the-divine-comedy-by-dante-alighieri--abyss-of-hell---1480-1490--found-in-the-collection-of-the-biblioteca-apostolica-vaticana--486777773-5c3a03c246e0fb00016261f2.jpg" width="60%">
 
-Use ***<u>only</u>*** your bash command line to navigate the file structure that represents the circles of hell.  Points will be counted off if actions outside of your provided commands are needed to help navigate.
+To really practice, use ***<u>only</u>*** your bash command line to navigate the file structure that represents the circles of hell.
 
-Below are the levels of hell listed out with your tasks.
+## How to
 
-----
-
-Possible bash commands/ideas encountered:
-
-* `cd` and using `..`
-* `ls` and some of it's options like `-a` and potentially `-R`
-* `head` and `tail`
-* `touch`
-* executing programs and `chmod`
-* `mv`
-* `mkdir`
-* `unzip`
+1. Get these files on your computer ([download](https://github.com/AdamSpannbauer/dantes-inferno/archive/refs/heads/master.zip) and unzip OR [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repo)
+2. Open up a bash window in the root directory of this project
+3. Type `cat virgil` to get started
+4. `virgil` will be available in each level of hell; use `cat` to get instructions on what to do before moving deeper into bash hell
+5. Use google/chatgpt/etc to help discover what commands to run.  This activity doesn't tell you how to do all the things; it just brings up common tasks to know how to do and is an environment to practice.
 
 ----
 
-## Levels of hell and your tasks
+## Levels of hell you'll encounter
 
-Once you complete the task listed in a level of hell `cd` into the next level of hell.
+A list of the of the levels and a description of the bash task practiced there
 
-### Limbo
-
-Here you'll find a castle with 7 walls surrounding it.  Show the names of some of the people Dante encountered here.  The 'people' exist as files, list these files and show the contents of at least one to see more about that person.
-
-### Lust
-
-The inhabitants of this circle of hell are punished by being blown back and forth by strong winds... so it might be hard to spot them with them being 'hidden' by the wind.  List out the names of the people here and show the contents of at least one people files.
-
-### Gluttony
-
-Here we encounter souls without famous names `¯\_(ツ)_/¯`. They're being guarded by Cerberus (view him if you dare!).  One glutton we encounter is name Ciacco, but... given he's a glutton the file is a little unwieldy.  Use commands to show just the first line of the file and the last line of the file to see his prediction.
-
-### Greed
-
-Here we're supposed to see two groups of people jousting... but I don't see anyone even looking for hidden people...
-
-Create two blank files, one named `hoarders` and one named `spenders`. Make sure you've named them exactly like this. Once you've created them run the program `joust` by typing `./joust`.  The program will either depict the jousting scene (v gruesome) or let you know that you didn't create the needed files.
-
-If you get an error saying `permission denied: ./joust` run the command `chmod +x joust`; this gives the `joust` program permission to be executed (aka ran).  Look more into the `chmod` command and what all it can do.
-
-For extra exposure to what bash can do you can look into the contents of the `joust` file.
-
-### Anger
-
-Here we're transported by Phlegyas on the river Styx to the City of Dis.  Unlike Dante, we have to do some of the heavy lifting here. Make a directory called `dis` and move the `boat` to the newly created `dis` directory.
-
-### Heresy
-
-In this circle of hell, heretics are trapped inside flaming tombs!  In `tombs.zip` there are some people who Dante encounters in this circle of hell.  Use the command line to unzip this file and then view the names.
-
-### Violence
-
-A minotaur blocks our entrance to this 7th circle of hell.  Canonically, our guide Virgil, talks us past this beast, but we'll take the easy way out and just remove him from our path.  Delete the minotaur file and proceed to the next level of hell.
-
-### Fraud
-
-Here we see all sorts of people guilty of many different forms of deception and fraud including alchemists!! Copy the lead file and name the copy of the file gold.
-
-### Treachery
-
-
-
-
-
+1. **Limbo** - navigation in/out of directories & listing directory contents
+2. **Lust** - listing hidden files
+3. **Gluttony** - showing just the head or tail of a file
+4. **Greed** - creating files, modifying file permissions, & executing scripts
+5. **Anger** - creating directories & moving files
+6. **Heresy** - unzipping zip files
+7. **Violence** - deleting files
+8. **Fraud** - copying files & opening text editors
+9. **Treachery** - deleting directories and contents
